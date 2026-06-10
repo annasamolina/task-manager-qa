@@ -1,16 +1,47 @@
-# React + Vite
+# Task Manager — QA Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Описание
 
-Currently, two official plugins are available:
+Веб-приложение для управления задачами. Создано как проект для портфолио QA-специалиста.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live Demo:** https://dazzling-hamster-1eccf4.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Функциональные требования
 
-## Expanding the ESLint configuration
+1. Добавление новой задачи
+2. Удаление задачи
+3. Редактирование задачи
+4. Отметка задачи как выполненной/невыполненной
+5. Фильтрация задач:
+   - Все
+   - Активные
+   - Выполненные
+6. Сохранение данных после перезагрузки страницы (localStorage)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Технологический стек
+
+- **Frontend:** React + Vite
+- **Хранение данных:** localStorage
+- **Стили:** CSS (адаптивный дизайн)
+- **Деплой:** Netlify
+
+---
+
+## 🚀 Как запустить локально
+
+```bash
+# Клонировать репозиторий
+git clone https://github.com/annasamolina/task-manager-qa.git
+
+# Перейти в папку проекта
+cd task-manager-qa
+
+# Установить зависимости
+yarn install
+
+# Запустить в режиме разработки
+yarn dev
